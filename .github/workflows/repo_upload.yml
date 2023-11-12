@@ -27,6 +27,6 @@ jobs:
            # Publish build info
            jf rt bp
            # upload the repository
-           jf rt u RELEASE.md test-generic-local
+           jf rt u RELEASE.md local-repository
            #Publish build info
            echo "Copy RELEASE.md  file to test-generic-local repository"
