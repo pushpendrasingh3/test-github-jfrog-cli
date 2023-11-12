@@ -19,7 +19,7 @@ jobs:
       - name: Run JFrog CLI
         run: |
            #Ping the server
-           jf rt ping
+           #jf rt ping
            #Collect environment variables from the build
            jf rt bce
            #Collect VCS details from git and add them to the build
