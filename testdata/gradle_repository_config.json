@@ -1,0 +1,5 @@
+{
+  "key": "${GRADLE_REPO}",
+  "rclass": "local",
+  "packageType": "gradle"
+}

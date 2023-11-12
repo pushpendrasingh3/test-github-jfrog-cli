@@ -1,0 +1,13 @@
+version: 1
+type: gradle
+
+resolver:
+    repo: ${GRADLE_REMOTE_REPO}
+    username: ${USERNAME}
+    password: ${PASSWORD}
+    url: ${URL}
+deployer:
+    repo: ${GRADLE_REPO}
+    username: ${USERNAME}
+    password: ${PASSWORD}
+    url: ${URL}

@@ -1,0 +1,33 @@
+# IDEs
+.idea
+.vscode
+*.iml
+
+# Test files
+testdata/go/project1/go.sum
+testdata/go/tmp
+tmp
+out
+
+# JFrog executable
+jf
+jf.exe
+jfrog
+jfrog.exe
+
+# Vim
+*~
+*.swp
+
+# IOS
+*.DS_Store
+
+# Chocolatey build files
+build/chocolatey/v2/tools/LICENSE
+*.nupkg
+
+# npm build files
+node_modules
+
+# Gradle
+.gradle

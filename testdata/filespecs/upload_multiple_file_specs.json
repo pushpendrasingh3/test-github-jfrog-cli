@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "pattern": "testdata/a/a1.in",
+      "target": "${REPO1}/multiple/a1.out",
+      "flat": "true"
+    },
+    {
+      "pattern": "testdata/a/b/b2.in",
+      "target": "${REPO1}/multiple/properties/",
+      "flat": "false",
+      "targetProps": "searchMe=true"
+    }
+  ]
+}

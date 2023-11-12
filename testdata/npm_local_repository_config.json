@@ -1,0 +1,5 @@
+{
+  "key": "${NPM_REPO}",
+  "rclass": "local",
+  "packageType": "npm"
+}
