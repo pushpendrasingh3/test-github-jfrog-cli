@@ -26,7 +26,11 @@ jobs:
            jf rt bag
            # Publish build info
            jf rt bp
-           # upload the repository
-           jf rt u RELEASE.md local-repository
+           # upload index.js the repository
+           jf rt u index.js local-repository
+           # upload nodeapp.tar into repository
+           jf rt u nodeapp.tar local-repository
+           # upload app.js into local-repository
+           jf rt u app.jar local-repository
            #Publish build info
-           echo "Copy RELEASE.md  file to test-generic-local repository"
+           echo "Copy index.js, app.js, nodeapp.tar into local-repository successfully !"
