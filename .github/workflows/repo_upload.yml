@@ -27,10 +27,10 @@ jobs:
            # Publish build info
            jf rt bp
            # upload index.js the repository
-           jf rt u index.js local-repository
+           jf rt u index_0.0.3.js local-repository
            # upload nodeapp.tar into repository
-           jf rt u nodeapp_0.0.1.tar local-repository
+           jf rt u nodeapp_0.0.3.tar local-repository
            # upload app.js into local-repository
-           jf rt u app.js local-repository
+           jf rt u app_0.0.3.js local-repository
            #Publish build info
            echo "Copy index.js, app.js, nodeapp.tar into local-repository successfully !"
